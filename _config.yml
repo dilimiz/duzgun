@@ -2,7 +2,7 @@ theme: jekyll-theme-modernist
 title: Dilimiz
 description: Düzgün language corrector
 fontname: Amiri-Regular
-fontsize: 24
+fontsize: 18
 fontttf: /assets/Amiri-Regular.ttf
 fonteot: /assets/Amiri-Regular.eot
 fontwoff: /assets/Amiri-Regular.woff
