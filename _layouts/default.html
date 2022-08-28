@@ -27,7 +27,7 @@
 
         textarea {
           font-family: '{{ site.fontname }}';
-          font-size: '{{ site.fontsize }}'px !important;
+          font-size: {{ site.fontsize }}px !important;
           color:#444444;
           width: 100%;
           margin-left: 50px;
@@ -56,7 +56,7 @@
       </header>
       <section style="direction:rtl;
       color:#444444;
-      font-size: '{{ site.fontsize }}px';
+      font-size: {{ site.fontsize }}px;
       font-family: '{{ site.fontname }}';">
 
       {{ content }}
