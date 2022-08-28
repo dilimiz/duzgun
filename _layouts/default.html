@@ -24,6 +24,12 @@
             url('{{ site.fontwoff }}') format('woff'), 
             url('{{ site.fontwoff2 }}') format('woff2');
         }
+
+        textarea {
+          font-family: '{{ site.fontname }}';
+          font-size: '{{ site.fontsize }}px';
+          color:#444444;
+        }
     </style>
 
     {% include head-custom.html %}
@@ -48,8 +54,8 @@
       </header>
       <section style="direction:rtl;
       color:#444444;
-      font-size: {{ site.fontsize }}px;
-      font-family: {{ site.fontname }};">
+      font-size: '{{ site.fontsize }}px';
+      font-family: '{{ site.fontname }}';">
 
       {{ content }}
 
