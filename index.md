@@ -1,4 +1,4 @@
-<h3 style="text-align: center;font-size: 16px !important;">«دۆزگۆن» دانېشېق دیلینی یازې دیلینه چئویره‌ن یازېلېم دېر!</h3>
+<h3 style="text-align: center;font-size: 16px !important;">«دۆزگۆن» ایله دۆزگۆن یاز!</h3>
 <hr />
 <textarea id="input">
 علینن باهم مدرسییه گدیروخ.
