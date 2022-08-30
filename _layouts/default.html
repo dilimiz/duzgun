@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script src="assets/js/duzgun.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <!--[if lt IE 9]>
@@ -27,7 +28,7 @@
 
         textarea {
           font-family: '{{ site.fontname }}';
-          font-size: {{ site.fontsize }}px !important;
+          font-size: '{{ site.fontsize }}px' !important;
           color: #444444;
           width: 99%;
           height: 175px;
@@ -39,7 +40,7 @@
         }
         button {
           font-family: '{{ site.fontname }}';
-          font-size: {{ site.fontsize }}px !important;
+          font-size: '{{ site.fontsize }}px' !important;
           width: 200px;
           background-color: #008CBA;
           border: none;
@@ -48,7 +49,7 @@
           color: #ffffff;
           padding: 10px;
           margin-top: 20px;
-          margin-buttom: 20px;
+          margin-bottom: 20px;
           margin-left: 20px;
         }
         button:hover {background-color: #00abe4;}
