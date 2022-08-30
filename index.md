@@ -4,7 +4,7 @@
 علینن باهم مدرسییه گدیروخ.
 </textarea>
 
-<button>دۆزه‌لتمک</button>
+<button onclick="duzgun();">دۆزه‌لتمک</button>
 
 <textarea id="output">
 علی ایله بیرلیکده مدرسه‌یه گئدیریک.
