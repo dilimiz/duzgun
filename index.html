@@ -1,0 +1,66 @@
+<html>
+<head>
+    <script src="assets/js/duzgun.js"></script>
+    <style>
+        @font-face {
+            font-family: 'Amiri-Regular';
+            src: local('Amiri-Regular'), 
+            local('Amiri-Regular'),
+            url('/assets/Amiri-Regular.ttf') format('ttf'), 
+            url('/assets/Amiri-Regular.eot') format('eot'), 
+            url('/assets/Amiri-Regular.woff') format('woff'), 
+            url('/assets/Amiri-Regular.woff2') format('woff2');
+        }
+
+        body {
+            direction: rtl;
+            font-family: Amiri-Regular;
+        }
+
+        textarea {
+          font-family: 'Amiri-Regular';
+          font-size: 18px !important;
+          color: #444444;
+          width: 99%;
+          height: 175px;
+          box-sizing: border-box;
+          border: 2px solid #ccc;
+          padding: 10px;
+          outline: none !important;
+        }
+        button {
+          font-family: 'Amiri-Regular';
+          font-size: 18px !important;
+          width: 200px;
+          background-color: #008CBA;
+          border: none;
+          float: left;
+          text-decoration: none;
+          color: #ffffff;
+          padding: 10px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: 20px;
+        }
+        button:hover {background-color: #00abe4;}
+        button:active {background-color: #008CBA;}
+    </style>
+</head>
+
+<body>
+<h3 style="text-align: center;">«دۆزگۆن» ایله دۆزگۆن یاز!</h3>
+<hr />
+<textarea id="input">
+علینن باهم مدرسییه گدیروخ.
+</textarea>
+    
+<button onclick="duzgun();">دۆزه‌لتمک</button>
+    
+<textarea id="output">
+علی ایله بیرلیکده مدرسه‌یه گئدیریک.
+</textarea>
+
+</body>
+
+</html>
+
